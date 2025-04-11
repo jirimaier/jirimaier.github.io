@@ -9,10 +9,30 @@
         h1, h2 { color: #333; }
         p { margin: 10px 0; }
         .bold { font-weight: bold; }
+        .buttons {
+            margin: 20px 0;
+        }
+        .buttons a {
+            display: inline-block;
+            margin: 5px;
+        }
+        .buttons img {
+            height: 40px;
+        }
     </style>
 </head>
 <body>
     <h1>Data Plotter Tool Overview</h1>
+
+    <div class="buttons">
+        <a href="https://apps.microsoft.com/detail/9NVBN2G853FP?hl=en-us&gl=CZ&ocid=pdpshare" target="_blank">
+            <img src="https://img.shields.io/badge/Get%20it%20from-Microsoft%20Store-blue?style=for-the-badge&logo=microsoft" alt="Get it from Microsoft Store">
+        </a>
+        <a href="https://software.opensuse.org//download.html?project=home%3Amaierjir&package=data-plotter" target="_blank">
+            <img src="https://img.shields.io/badge/Download-Linux%20(distributions)-green?style=for-the-badge&logo=linux" alt="Download for Linux">
+        </a>
+    </div>
+
     <p>
         The <span class="bold">Data Plotter</span> is a tool for plotting data received over a serial port. Typical use cases include microcontroller-based SDI (Software-defined instruments), such as an oscilloscope based on STM32 MCU, or data logging from sensors connected to Arduino.
     </p>
